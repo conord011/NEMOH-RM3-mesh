@@ -1,0 +1,24 @@
+FLoat aximesh coords and command promts
+
+r=[2.9923 9.9796 9.9796 2.9923];
+z=[2.7212 2.7212 -1.2787 -1.2787];
+n=4;
+- [Mass,Inertia,KH,XB,YB,ZB]=axiMesh(r,z,n)
+- angular discretisation = 11
+- Directory name for storage of results : 'plate_mesh'
+- Vertical position of gravity center : 0
+- Target for number of panels : 500
+
+Spar & Plate aximesh coords
+r = [0.0000 0.0000 3.0000 0.0000 2.8908 0.0000 14.9746 0.0000 0.0000];    
+z = [29.2000 29.2000 29.2000 -8.6100 -8.6100 -8.6100 -8.6100 -8.6100 -8.6100];
+n=9;
+
+- [Mass,Inertia,KH,XB,YB,ZB]=axiMesh(r,z,n)
+- angular discretisation = 11
+- Directory name for storage of results : 'plate_mesh'
+- Vertical position of gravity center : 0
+- Target for number of panels : 500
+
+
+ 
